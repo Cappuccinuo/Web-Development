@@ -3,8 +3,40 @@
 <head>
 <meta charset="UTF-8">
 <title>Task1</title>
-<link rel="stylesheet" type="text/css" href="mystyle.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	table, th, td {
+    	border: 2px solid black;
+    	border-collapse: collapse;
+	}
+	th, td {
+	    padding: 20px;
+	}
+	div.colbox {
+	    display: flex;
+	    text-align: center;
+	}
+	div.col1 {
+	    float: center;
+	    width: 30%;
+	}
+	div.col2 {
+	    float: center;
+	    width: 80%;
+	}
+	div.col3 {
+		width: 30%;
+	    float: right;
+	}
+	a {
+	    text-decoration: none;
+	    color: black;
+	}
+	body {
+	    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	    background-color: #FEFFF8;
+	}
+</style>
 </head>
 
 <body>
@@ -22,14 +54,14 @@
 			<br/>
 			<br/>
 			<div>
-				<a class="list-group-item" href="http://hw02.cappuccinuo.net"><i class="fa fa-hand-o-left fa-3x"></i> Return</a>
+				<a href="http://hw02.cappuccinuo.net"><i class="fa fa-hand-o-left fa-3x"></i> Return</a>
 			</div>
 		</div>
 		<div class="col2">
 			<div>
-				<img src="Wolf.png" width=80%> 
+				<img src="Wolf.png" alt="Wolf" width="500"> 
 				<h1 id="animal">GRAY WOLF</h1>
-				<script type="text/javascript" src="changecolor.js"></script>
+				<script src="changecolor.js"></script>
 			</div>
 		</div>
 		<div class="col3">
@@ -44,7 +76,7 @@
 						</th>
 					</tr>
 				</table>
-				<script type="text/javascript" src="calculate.js"></script>
+				<script src="calculate.js"></script>
 			</div>
 		</div>
 	</div>

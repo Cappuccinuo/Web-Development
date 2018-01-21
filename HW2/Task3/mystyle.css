@@ -1,0 +1,53 @@
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-color: #FEFFF8;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover { 
+    color:#C4C9CF;  
+} 
+
+#lorem {
+    text-align: justify;
+}
+#content-box {
+    width: 70%;
+}
+* {
+    box-sizing: border-box;
+}
+.header {
+    text-align: center;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.hide {
+  display: none;
+}

@@ -1,0 +1,42 @@
+body {
+    background-color: #FEFFF8;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #88B5D6;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.buttonBox {
+    text-align: center;
+}
+
+button:hover {
+    background-color: #BBDBF2;
+}
+
+button:active {
+    background-color: #BBDBF2;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#number {
+    font-size: 50px;
+    text-align: center;
+}
+
+* {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
